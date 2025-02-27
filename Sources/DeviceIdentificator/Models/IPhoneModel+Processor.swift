@@ -55,6 +55,11 @@ public extension DeviceModel.IPhoneModel {
         case .iPhone15Plus:         return .appleA16Bionic
         case .iPhone15Pro:          return .appleA17Pro
         case .iPhone15ProMax:       return .appleA17Pro
+        case .iPhone16:             return .appleA18
+        case .iPhone16Plus:         return .appleA18
+        case .iPhone16Pro:          return .appleA18Pro
+        case .iPhone16ProMax:       return .appleA18Pro
+        case .iPhone16e:            return .appleA18
         }
     }
 }

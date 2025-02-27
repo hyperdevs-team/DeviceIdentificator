@@ -45,6 +45,8 @@ public extension DeviceModel {
         case appleA15Bionic
         case appleA16Bionic
         case appleA17Pro
+        case appleA18
+        case appleA18Pro
 
         // Vision PRO:
         case appleR1
