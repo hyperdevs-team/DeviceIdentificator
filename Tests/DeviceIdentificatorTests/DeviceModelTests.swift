@@ -85,4 +85,24 @@ public class DeviceModelTests: XCTestCase {
         XCTAssertFalse(iPadSimulator.isAppleTV)
         XCTAssertTrue(iPadSimulator.isWatch)
     }
+
+    public func test_iPhoneX_has_rounded_display_corners() {
+        let iPhoneX = DeviceModel.iPhone(.iPhoneXGlobal)
+
+        XCTAssertTrue(iPhoneX.hasRoundedDisplayCorners)
+
+        let iPhoneXSimulator = DeviceModel.simulator(iPhoneX, arch: "arm64")
+
+        XCTAssertTrue(iPhoneXSimulator.hasRoundedDisplayCorners)
+    }
+
+    public func test_iPhone15_has_dynamic_island() {
+        let iPhone15 = DeviceModel.iPhone(.iPhone15)
+
+        XCTAssertTrue(iPhone15.hasDynamicIsland)
+
+        let iPhone15Simulator = DeviceModel.simulator(iPhone15, arch: "arm64")
+
+        XCTAssertTrue(iPhone15Simulator.hasDynamicIsland)
+    }
 }

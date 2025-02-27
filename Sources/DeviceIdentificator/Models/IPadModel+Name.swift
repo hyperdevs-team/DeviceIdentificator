@@ -45,6 +45,8 @@ public extension DeviceModel.IPadModel {
         case .mini5Cellular:                return "iPad Mini 5 (Cellular)"
         case .mini6Wifi:                    return "iPad Mini 6 (Wifi)"
         case .mini6Cellular:                return "iPad Mini 6 (Cellular)"
+        case .mini7Wifi:                    return "iPad Mini 7 (Wifi)"
+        case .mini7Cellular:                return "iPad Mini 7 (Cellular)"
             
         // Airs
         case .air1Wifi:                     return "iPad Air 1 (Wifi)"
@@ -58,7 +60,11 @@ public extension DeviceModel.IPadModel {
         case .air4Cellular:                 return "iPad Air 4 (Cellular)"
         case .air5Wifi:                     return "iPad Air 5 (Wifi)"
         case .air5Cellular:                 return "iPad Air 5 (Cellular)"
-            
+        case .air11InchM2Wifi:              return "iPad Air M2 11\" (Cellular)"
+        case .air11InchM2Cellular:          return "iPad Air M2 11\" (Cellular)"
+        case .air13InchM2Wifi:              return "iPad Air M2 13\" (Cellular)"
+        case .air13InchM2Cellular:          return "iPad Air M2 13\" (Cellular)"
+
         // Pros
         case .pro1_9d7inchWifi:             return "iPad Pro 1G 9.7\" (Wifi)"
         case .pro1_9d7inchCellular:         return "iPad Pro 1G 9.7\" (Cellular)"
@@ -92,10 +98,10 @@ public extension DeviceModel.IPadModel {
         case .pro4_11inchCellular:          return "iPad Pro 4G 11\" (Cellular)"
         case .pro6_12d9inchWifi:            return "iPad Pro 6G 12.9\" (Wifi)"
         case .pro6_12d9inchCellular:        return "iPad Pro 6G 12.9\" (Cellular)"
-        case .pro7_11inchWifi:              return "iPad Pro 7G 11\" (Wifi)"
-        case .pro7_11inchCellular:          return "iPad Pro 7G 11\" (Cellular)"
-        case .pro7_13inchWifi:              return "iPad Pro 7G 13\" (Wifi)"
-        case .pro7_13inchCellular:          return "iPad Pro 7G 13\" (Cellular)"
+        case .pro_11inchM4Wifi:              return "iPad Pro 7G 11\" (Wifi)"
+        case .pro_11inchM4Cellular:          return "iPad Pro 7G 11\" (Cellular)"
+        case .pro_13inchM4Wifi:              return "iPad Pro 7G 13\" (Wifi)"
+        case .pro_13inchM4Cellular:          return "iPad Pro 7G 13\" (Cellular)"
         }
     }
 }
