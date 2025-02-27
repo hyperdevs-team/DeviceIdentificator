@@ -21,10 +21,11 @@ For Swift 4 please use v1
 For Swift 5 please use v2+
 
 ## Installation
+
 ### Swift Package Manager
 Add the package using Xcode or copy this into your `Package.swift` file:
 ```swift
-.package(url: "https://github.com/sebastianvarela/DeviceIdentificator", from: "3.0.5")
+.package(url: "https://github.com/sebastianvarela/DeviceIdentificator", from: "4.0.0")
 ```
 
 ### Manually
