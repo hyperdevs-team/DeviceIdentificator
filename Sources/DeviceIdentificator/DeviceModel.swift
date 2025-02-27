@@ -6,7 +6,7 @@ import Foundation
 public indirect enum DeviceModel: Equatable, CaseIterable, CustomStringConvertible {
     public static let current: DeviceModel = {
         #if os(macOS)
-            let service = IOServiceGetMatchingService(kIOMasterPortDefault,
+            let service = IOServiceGetMatchingService(kIOMainPortDefault,
                                                       IOServiceMatching("IOPlatformExpertDevice"))
             var modelIdentifier: String?
             if let modelData = IORegistryEntryCreateCFProperty(service, "model" as CFString, kCFAllocatorDefault, 0).takeRetainedValue() as? Data {
