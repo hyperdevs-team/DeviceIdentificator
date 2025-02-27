@@ -91,5 +91,9 @@ public extension DeviceModel {
         case pro4_11inchCellular        = "iPad14,4"
         case pro6_12d9inchWifi          = "iPad14,5"
         case pro6_12d9inchCellular      = "iPad14,6"
+        case pro7_11inchWifi            = "iPad16,3"
+        case pro7_11inchCellular        = "iPad16,4"
+        case pro7_13inchWifi            = "iPad16,5"
+        case pro7_13inchCellular        = "iPad16,6"
     }
 }

@@ -92,6 +92,10 @@ public extension DeviceModel.IPadModel {
         case .pro4_11inchCellular:          return "iPad Pro 4G 11\" (Celullar)"
         case .pro6_12d9inchWifi:            return "iPad Pro 6G 12.9\" (Wifi)"
         case .pro6_12d9inchCellular:        return "iPad Pro 6G 12.9\" (Celullar)"
+        case .pro7_11inchWifi:              return "iPad Pro 7G 11\" (Wifi)"
+        case .pro7_11inchCellular:          return "iPad Pro 7G 11\" (Cellular)"
+        case .pro7_13inchWifi:              return "iPad Pro 7G 13\" (Wifi)"
+        case .pro7_13inchCellular:          return "iPad Pro 7G 13\" (Cellular)"
         }
     }
 }

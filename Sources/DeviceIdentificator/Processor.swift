@@ -22,6 +22,9 @@ public extension DeviceModel {
         case appleM3
         case appleM3Pro
         case appleM3Max
+        case appleM4
+        case appleM4Pro
+        case appleM4Max
 
         // iPhone/iPads/TVs:
         case appleA4

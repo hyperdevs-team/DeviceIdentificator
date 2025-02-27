@@ -1,10 +1,51 @@
 import Foundation
 
-public extension DeviceModel.MacModel {
-    var name: String {
+extension DeviceModel.MacModel {
+    public var name: String {
         switch self {
-        case .miniM1:
-            return "Mini M1"
+        case .iMac2PortsM1:                   return "iMac (M1 2 ports)"
+        case .iMac4PortsM1:                   return "iMac (M1 4 ports)"
+        case .iMac2PortsM3:                   return "iMac (M3 2 ports)"
+        case .iMac4PortsM3:                   return "iMac (M3 4 ports)"
+        case .iMac2PortsM4:                   return "iMac (M3 2 ports)"
+        case .iMac4PortsM4:                   return "iMac (M3 2 ports)"
+        case .macBookAirM1:                   return "MacBook Air (M1)"
+        case .macBookAir13InchM2:             return "MacBook Air 13\" (M2)"
+        case .macBookAir15InchM2:             return "MacBook Air 15\" (M2)"
+        case .macBookAir13InchM3:             return "MacBook Air 13\" (M3)"
+        case .macBookAir15InchM3:             return "MacBook Air 15\" (M3)"
+        case .macBookProM1:                   return "MacBook Pro (M1)"
+        case .macBookPro14InchM1Pro:          return "MacBook Pro 14\" (M1 Pro)"
+        case .macBookPro14InchM1Max:          return "MacBook Pro 14\" (M1 Max)"
+        case .macBookPro16InchM1Pro:          return "MacBook Pro 16\" (M1 Pro)"
+        case .macBookPro16InchM1Max:          return "MacBook Pro 16\" (M1 Max)"
+        case .macBookProM2:                   return "MacBook Pro (M2)"
+        case .macBookPro14InchM2Pro:          return "MacBook Pro 14\" (M2 Pro)"
+        case .macBookPro14InchM2Max:          return "MacBook Pro 14\" (M2 Max)"
+        case .macBookPro16InchM2Pro:          return "MacBook Pro 16\" (M2 Pro)"
+        case .macBookPro16InchM2Max:          return "MacBook Pro 16\" (M2 Max)"
+        case .macBookProM3:                   return "MacBook Pro (M3)"
+        case .macBookPro14InchM3Pro:          return "MacBook Pro 14\" (M3 Pro)"
+        case .macBookPro14InchM3Max14Core:    return "MacBook Pro 14\" (M3 Max 14-core)"
+        case .macBookPro14InchM3Max16Core:    return "MacBook Pro 14\" (M3 Max 16-core)"
+        case .macBookPro16InchM3Pro:          return "MacBook Pro 16\" (M3 Pro)"
+        case .macBookPro16InchM3Max14Core:    return "MacBook Pro 16\" (M3 Max 14-core)"
+        case .macBookPro16InchM3Max16Core:    return "MacBook Pro 16\" (M3 Max 16-core)"
+        case .macBookProM4:                   return "MacBook Pro (M4)"
+        case .macBookPro14InchM4Pro:          return "MacBook Pro 14\" (M4 Pro)"
+        case .macBookPro14InchM4Max:          return "MacBook Pro 14\" (M4 Max)"
+        case .macBookPro16InchM4Pro:          return "MacBook Pro 16\" (M4 Pro)"
+        case .macBookPro16InchM4Max:          return "MacBook Pro 16\" (M4 Max)"
+        case .macPro:                         return "Mac Pro (M2 Ultra)"
+        case .macStudioM1Max:                 return "Mac Studio (M1 Max)"
+        case .macStudioM1Ultra:               return "Mac Studio (M1 Ultra)"
+        case .macStudioM2Max:                 return "Mac Studio (M2 Max)"
+        case .macStudioM2Ultra:               return "Mac Studio (M2 Ultra)"
+        case .miniM1:                         return "Mac mini (M1)"
+        case .miniM2:                         return "Mac mini (M2)"
+        case .miniM2Pro:                      return "Mac mini (M2 Pro)"
+        case .miniM4:                         return "Mac mini (M4)"
+        case .miniM4Pro:                      return "Mac mini (M4 Pro)"
         }
     }
 }
