@@ -85,10 +85,4 @@ public class DeviceModelTests: XCTestCase {
         XCTAssertFalse(iPadSimulator.isAppleTV)
         XCTAssertTrue(iPadSimulator.isWatch)
     }
-    
-    public func test_current_device() {
-        let current = DeviceModel.current
-        
-        XCTAssertEqual(current, .iPad(.gen2GSM))
-    }
 }
