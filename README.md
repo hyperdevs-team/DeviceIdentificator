@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-macOS-blue.svg?style=flat)
 ![Platform](https://img.shields.io/badge/platform-watchOS-blue.svg?style=flat)
 ![Platform](https://img.shields.io/badge/platform-tvOS-blue.svg?style=flat)
-[![Build Status](https://travis-ci.org/hyperdevs-team/DeviceIdentificator.svg?branch=master)](https://travis-ci.org/hyperdevs-team/DeviceIdentificator) [![codecov](https://codecov.io/gh/hyperdevs-team/DeviceIdentificator/branch/master/graph/badge.svg)](https://codecov.io/gh/hyperdevs-team/DeviceIdentificator) [![codebeat badge](https://codebeat.co/badges/0230786d-680e-4d4b-bcb0-bacc6693571f)](https://codebeat.co/projects/github-com-hyperdevs-team-deviceidentificator-master)
+[![Build Status](https://travis-ci.org/hyperdevs-team/DeviceIdentificator.svg?branch=master)](https://travis-ci.org/hyperdevs-team/DeviceIdentificator) [![codecov](https://codecov.io/gh/hyperdevs-team/DeviceIdentificator/branch/master/graph/badge.svg)](https://codecov.io/gh/hyperdevs-team/DeviceIdentificator) [![codebeat badge](https://codebeat.co/badges/ec456bb6-741a-416f-96ee-520f2b8d076a)](https://codebeat.co/projects/github-com-hyperdevs-team-deviceidentificator-master)
 
 
 ## Introduction
