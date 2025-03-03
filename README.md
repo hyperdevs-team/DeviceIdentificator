@@ -8,10 +8,12 @@
 
 
 ## Introduction
-UIDevice extension to fetch current device info such commercial name (iPhone X instead of iPhone10,3).
+Use `DeviceModel` to get some usefull information about some Apple devices (specially iPhones and iPads).
+
+> Currently the Mac models available in this library correspond only to those that use Apple Silicon chips
 
 ## Platforms 
-Support for iOS and tvOS
+Support for iOS, iPadOS, macOS and tvOS
 
 ## Support
 For Swift 4 please use v1
@@ -19,33 +21,26 @@ For Swift 4 please use v1
 For Swift 5 please use v2+
 
 ## Installation
-This framework is compatible with Carthage or Cocoapods, use one of both.
-### Carthage
-Add this into your `Cartfile`:
-```ogdl
-github "sebastianvarela/DeviceIdentificator" 
+
+### Swift Package Manager
+Add the package using Xcode or copy this into your `Package.swift` file:
+```swift
+.package(url: "https://github.com/sebastianvarela/DeviceIdentificator", from: "4.0.0")
 ```
-### Cocoapods
-Add this into your `Podfile`:
-```ogdl
-pod 'DeviceIdentificator' 
+
+### Manually
+To install it manually, drag the DeviceIdentificator folder into your app project in Xcode. You can also add it as a git submodule by running the following command:
+```zsh
+$ git submodule add https://github.com/sebastianvarela/DeviceIdentificator.git
 ```
 
 ## Usage
-Swift:
 ```swift
-let deviceModel = UIDevice.current.deviceModel
+import DeviceIdentificator
+
+let deviceModel = DeviceModel.current
 print("Current device: \(deviceModel.name)")
 
-let isIpad = UIDevice.current.isIpad
-let isSimulator = UIDevice.current.isSimulator
-```
-
-Objective-C:
-```objectivec
-NSString *deviceModelName = [UIDevice currentDevice].deviceModelName;
-NSLog(@"Current device: %@", [UIDevice currentDevice].deviceModelName);
-    
-BOOL isIpad = [UIDevice currentDevice].isIpad;
-BOOL isSimulator = [UIDevice currentDevice].isSimulator;
+let isIpad = deviceModel.isIpad
+let isSimulator = deviceModel.isSimulator
 ```
