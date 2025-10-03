@@ -14,7 +14,7 @@ public extension DeviceModel.IPadModel {
         case .gen8Wifi, .gen8Cellular:                   return .appleA12Bionic
         case .gen9Wifi, .gen9Cellular:                   return .appleA13Bionic
         case .gen10Wifi, .gen10Cellular:                 return .appleA14Bionic
-        case .gen11Wifi, .gen11Cellular:                 return .appleA14Bionic // Asumido, basado en el iPad 10
+        case .gen11Wifi, .gen11Cellular:                 return .appleA14Bionic // Assumed, based on iPad 10
             
             // Minis
         case .mini1Wifi, .mini1GSM, .mini1CDMA:          return .appleA5
