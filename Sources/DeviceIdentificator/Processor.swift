@@ -67,6 +67,7 @@ public extension DeviceModel {
         case appleS7
         case appleS8
         case appleS9
+        case appleS10
     }
 }
 
