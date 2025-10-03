@@ -6,8 +6,8 @@ struct DeviceModelArchitectureTests {
     
     @Test("Verifies architecture for all device models")
     func testArchitectureForAllTypes() {
-        // Diccionario de referencia que mapea cada procesador a su arquitectura esperada.
-        // Esta es nuestra "fuente de la verdad" para el test.
+        // Reference dictionary that maps each processor to its expected architecture.
+        // This is our "source of truth" for the test.
         let expectedArchitectures: [DeviceModel.Processor: String] = [
             // Early Processors
             .APL0098: "armv6",
