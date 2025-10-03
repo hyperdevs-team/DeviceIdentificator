@@ -47,6 +47,15 @@ public extension DeviceModel.AppleWatchModel {
         case .SE2_44mmCellular:         return "Apple Watch SE2 44mm"
         case .ultra:                    return "Apple Watch Ultra 1"
         case .ultra2:                   return "Apple Watch Ultra 2"
+        case .series10_42mmGPS:         return "Apple Watch Series 10 42mm"
+        case .series10_46mmGPS:         return "Apple Watch Series 10 46mm"
+        case .series10_42mmCellular:    return "Apple Watch Series 10 42mm"
+        case .series10_46mmCellular:    return "Apple Watch Series 10 46mm"
+        case .ultra3:                   return "Apple Watch Ultra 3"
+        case .series11_42mmGPS:         return "Apple Watch Series 11 42mm"
+        case .series11_46mmGPS:         return "Apple Watch Series 11 46mm"
+        case .series11_42mmCellular:    return "Apple Watch Series 11 42mm"
+        case .series11_46mmCellular:    return "Apple Watch Series 11 46mm"
         }
     }
 }

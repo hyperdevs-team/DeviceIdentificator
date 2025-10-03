@@ -27,6 +27,8 @@ public extension DeviceModel {
         case gen9Cellular               = "iPad12,2"
         case gen10Wifi                  = "iPad13,18"
         case gen10Cellular              = "iPad13,19"
+        case gen11Wifi                  = "iPad15,7"
+        case gen11Cellular              = "iPad15,8"
         
         // Minis
         case mini1Wifi                  = "iPad2,5"
@@ -44,8 +46,8 @@ public extension DeviceModel {
         case mini5Cellular              = "iPad11,2"
         case mini6Wifi                  = "iPad14,1"
         case mini6Cellular              = "iPad14,2"
-        case mini7Wifi                  = "iPad16,1"
-        case mini7Cellular              = "iPad16,2"
+        case miniA17ProWifi             = "iPad16,1"
+        case miniA17ProCellular         = "iPad16,2"
         
         // Airs
         case air1Wifi                   = "iPad4,1"
@@ -63,6 +65,10 @@ public extension DeviceModel {
         case air11InchM2Cellular        = "iPad14,9"
         case air13InchM2Wifi            = "iPad14,10"
         case air13InchM2Cellular        = "iPad14,11"
+        case air11InchM3Wifi            = "iPad15,3"
+        case air11InchM3Cellular        = "iPad15,4"
+        case air13InchM3Wifi            = "iPad15,5"
+        case air13InchM3Cellular        = "iPad15,6"
         
         // Pros
         case pro1_9d7inchWifi           = "iPad6,3"

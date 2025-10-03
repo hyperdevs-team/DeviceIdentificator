@@ -60,6 +60,10 @@ public extension DeviceModel.IPhoneModel {
         case .iPhone16Pro:          return .appleA18Pro
         case .iPhone16ProMax:       return .appleA18Pro
         case .iPhone16e:            return .appleA18
+        case .iPhone17:             return .appleA19
+        case .iPhone17Pro:          return .appleA19Pro
+        case .iPhone17ProMax:       return .appleA19Pro
+        case .iPhoneAir:            return .appleA19
         }
     }
 }
