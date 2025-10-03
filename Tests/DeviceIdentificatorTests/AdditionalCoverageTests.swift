@@ -53,7 +53,7 @@ class AdditionalCoverageTests: XCTestCase {
     }
     
     func test_init_with_simulator_identifier() {
-        // Simula el entorno de un simulador
+        // Simulates simulator environment
         let originalEnv = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"]
         setenv("SIMULATOR_MODEL_IDENTIFIER", "iPhone15,4", 1) // iPhone 15
         
