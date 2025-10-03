@@ -64,7 +64,7 @@ public extension DeviceModel.IPadModel {
         case .air5Cellular:                 return "iPad Air 5 (Cellular)"
         case .air11InchM2Wifi:              return "iPad Air M2 11\" (Cellular)"
         case .air11InchM2Cellular:          return "iPad Air M2 11\" (Cellular)"
-        case .air13InchM2Wifi:              return "iPad Air M2 13\" (Cellular)"
+        case .air13InchM2Wifi:              return "iPad Air M2 13\" (Wifi)"
         case .air13InchM2Cellular:          return "iPad Air M2 13\" (Cellular)"
         case .air11InchM3Wifi:              return "iPad Air M3 11\" (Wifi)"
         case .air11InchM3Cellular:          return "iPad Air M3 11\" (Cellular)"
