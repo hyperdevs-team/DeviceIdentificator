@@ -31,7 +31,7 @@ struct DeviceModelDeviceIdentifierTests {
         let expectedModel = DeviceModel.simulator(.iPhone(.iPhone15), arch: "arm64")
         #expect(simulatorDevice == expectedModel)
         
-        // Limpia la variable de entorno
+        // Clean up environment variable
         if let originalEnv {
             setenv("SIMULATOR_MODEL_IDENTIFIER", originalEnv, 1)
         } else {
