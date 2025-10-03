@@ -65,7 +65,7 @@ class AdditionalCoverageTests: XCTestCase {
         XCTAssertTrue(simulatorDevice.isSimulator)
         XCTAssertTrue(simulatorDevice.isIphone)
         
-        // Limpia la variable de entorno
+        // Clean up environment variable
         if let originalEnv = originalEnv {
             setenv("SIMULATOR_MODEL_IDENTIFIER", originalEnv, 1)
         } else {
