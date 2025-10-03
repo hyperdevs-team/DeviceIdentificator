@@ -19,8 +19,8 @@ struct DeviceModelCurrentTests {
         #expect(!current.isSimulator, "Should be identified as a real device.")
 #endif
         
-        // La siguiente prueba es un ejemplo y solo pasará si ejecutas los tests en un iPhone 15.
-        // El objetivo es demostrar que el valor es coherente.
+        // The following test is an example and will only pass if you run tests on an iPhone 15.
+        // The goal is to demonstrate that the value is consistent.
         // #expect(current == .iPhone(.iPhone15))
     }
 }
