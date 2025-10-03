@@ -71,7 +71,7 @@ struct NewModelsTests {
         #expect(air11WifiDevice.deviceIdentifier == "iPad15,3")
         #expect(air11Wifi.processor == .appleM3)
         #expect(DeviceModel(deviceIdentifier: "iPad15,3") == air11WifiDevice)
-        // ... (se pueden añadir el resto de variantes de Air M3 aquí)
+        // ... (additional Air M3 variants can be added here)
     }
     
     @Test("iPad Mini A17 Pro properties")
