@@ -65,7 +65,7 @@ struct DeviceModelArchitectureTests {
             .appleS10: "arm64e"
         ]
         
-        // Itera sobre todos los casos de DeviceModel para verificar su arquitectura.
+        // Iterate over all DeviceModel cases to verify their architecture.
         for model in DeviceModel.allCases {
             let calculatedArchitecture = model.architecture
             var expectedArchitecture: String?
