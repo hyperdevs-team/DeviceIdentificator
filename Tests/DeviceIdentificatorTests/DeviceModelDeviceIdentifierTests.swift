@@ -23,7 +23,7 @@ struct DeviceModelDeviceIdentifierTests {
     
     @Test("Initialize from simulator identifier")
     func initWithSimulatorIdentifier() {
-        // Simula el entorno de un simulador
+        // Simulate the environment of a simulator
         let originalEnv = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"]
         setenv("SIMULATOR_MODEL_IDENTIFIER", "iPhone15,4", 1) // iPhone 15
         
