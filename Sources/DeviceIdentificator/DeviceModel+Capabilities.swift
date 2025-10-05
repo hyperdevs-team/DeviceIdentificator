@@ -46,8 +46,6 @@ public extension DeviceModel {
              .iPad(.air13InchM2Cellular),
              .iPad(.mini6Wifi),
              .iPad(.mini6Cellular),
-             .iPad(.mini7Wifi),
-             .iPad(.mini7Cellular),
              .iPad(.pro1_11inchWifi),
              .iPad(.pro1_11inchWifiTera),
              .iPad(.pro1_11inchCellular),

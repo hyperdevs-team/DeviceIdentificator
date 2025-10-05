@@ -60,6 +60,10 @@ public extension DeviceModel.IPhoneModel {
         case .iPhone16Pro:          return "iPhone 16 Pro"
         case .iPhone16ProMax:       return "iPhone 16 Pro Max"
         case .iPhone16e:            return "iPhone 16e"
+        case .iPhone17:             return "iPhone 17"
+        case .iPhone17Pro:          return "iPhone 17 Pro"
+        case .iPhone17ProMax:       return "iPhone 17 Pro Max"
+        case .iPhoneAir:            return "iPhone Air"
         }
     }
 }
