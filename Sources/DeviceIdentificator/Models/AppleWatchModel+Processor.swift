@@ -56,6 +56,15 @@ public extension DeviceModel.AppleWatchModel {
         case .ultra:                    return .appleS8
         case .ultra2:                   return .appleS9
         case .ultra3:                   return .appleS10
+        case .SE3_40mmGPS:              return .appleS10
+        case .SE3_40mmCellular:         return .appleS10
+        case .SE3_44mmGPS:              return .appleS10
+        case .SE3_44mmCellular:         return .appleS10
+        case .series12_42mmGPS:         return .appleS11
+        case .series12_42mmCellular:    return .appleS11
+        case .series12_46mmGPS:         return .appleS11
+        case .series12_46mmCellular:    return .appleS11
+        case .ultra4:                   return .appleS11
         }
     }
 }

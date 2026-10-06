@@ -24,14 +24,14 @@ public extension DeviceModel.Processor {
             return "arm64e"
             
             // Future processors (estimated to be arm64e or a successor)
-        case .appleA18, .appleA18Pro, .appleA19, .appleA19Pro:
+        case .appleA18, .appleA18Pro, .appleA19, .appleA19Pro, .appleA20Pro:
             return "arm64e" // Estimation
             
             // Apple Silicon for Mac/iPad
         case .appleM1, .appleM1Pro, .appleM1Max, .appleM1Ultra,
                 .appleM2, .appleM2Pro, .appleM2Max, .appleM2Ultra,
                 .appleM3, .appleM3Pro, .appleM3Max,
-                .appleM4, .appleM4Pro, .appleM4Max:
+                .appleM4, .appleM4Pro, .appleM4Max, .appleM5:
             return "arm64e"
             
             // Vision Pro Co-processor
@@ -45,7 +45,7 @@ public extension DeviceModel.Processor {
             return "armv8-a" // 64-bit (32-bit compatibility mode)
         case .appleS4, .appleS5,
                 .appleS6, .appleS7, .appleS8,
-                .appleS9, .appleS10:
+                .appleS9, .appleS10, .appleS11:
             return "arm64e" // 64-bit with Pointer Authentication
             
             // Very early 32-bit ARMv6 processor
@@ -87,6 +87,7 @@ public extension DeviceModel.Processor {
         case .appleA17Pro: return 2023
         case .appleA18, .appleA18Pro: return 2024 // Estimated
         case .appleA19, .appleA19Pro: return 2025 // Estimated
+        case .appleA20Pro: return 2026 // Estimated
             
             // M-series
         case .appleM1: return 2020
@@ -103,6 +104,7 @@ public extension DeviceModel.Processor {
         case .appleM4: return 2024
         case .appleM4Pro: return 2024 // Estimated
         case .appleM4Max: return 2024 // Estimated
+        case .appleM5: return 2025
             
             // R-series
         case .appleR1: return 2024
@@ -119,6 +121,7 @@ public extension DeviceModel.Processor {
         case .appleS8: return 2022
         case .appleS9: return 2023
         case .appleS10: return 2024 // Estimated
+        case .appleS11: return 2026 // Estimated
         }
     }
 }

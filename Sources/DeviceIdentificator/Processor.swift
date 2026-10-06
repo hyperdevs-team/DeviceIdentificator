@@ -25,6 +25,7 @@ public extension DeviceModel {
         case appleM4
         case appleM4Pro
         case appleM4Max
+        case appleM5
 
         // iPhone/iPads/TVs:
         case appleA4
@@ -52,6 +53,7 @@ public extension DeviceModel {
         case appleA18Pro
         case appleA19
         case appleA19Pro
+        case appleA20Pro
 
         // Vision PRO:
         case appleR1
@@ -68,6 +70,7 @@ public extension DeviceModel {
         case appleS8
         case appleS9
         case appleS10
+        case appleS11
     }
 }
 

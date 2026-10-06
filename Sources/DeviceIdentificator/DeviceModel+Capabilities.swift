@@ -34,6 +34,10 @@ public extension DeviceModel {
              .iPhone(.iPhone16Pro),
              .iPhone(.iPhone16ProMax),
              .iPhone(.iPhone16e),
+             .iPhone(.iPhone17e),
+             .iPhone(.iPhone18Pro),
+             .iPhone(.iPhone18ProMax),
+             .iPhone(.iPhone18ProMaxAlt),
              .iPad(.gen10Wifi),
              .iPad(.gen10Cellular),
              .iPad(.air4Wifi),
@@ -72,6 +76,14 @@ public extension DeviceModel {
              .iPad(.pro_11inchM4Cellular),
              .iPad(.pro_13inchM4Wifi),
              .iPad(.pro_13inchM4Cellular),
+             .iPad(.air11InchM4Wifi),
+             .iPad(.air11InchM4Cellular),
+             .iPad(.air13InchM4Wifi),
+             .iPad(.air13InchM4Cellular),
+             .iPad(.pro_11inchM5Wifi),
+             .iPad(.pro_11inchM5Cellular),
+             .iPad(.pro_13inchM5Wifi),
+             .iPad(.pro_13inchM5Cellular),
              .mac(.iMac2PortsM1),
              .mac(.iMac4PortsM1),
              .mac(.iMac2PortsM3),
@@ -123,7 +135,10 @@ public extension DeviceModel {
                  .iPhone(.iPhone16),
                  .iPhone(.iPhone16Plus),
                  .iPhone(.iPhone16Pro),
-                 .iPhone(.iPhone16ProMax):
+                 .iPhone(.iPhone16ProMax),
+                 .iPhone(.iPhone18Pro),
+                 .iPhone(.iPhone18ProMax),
+                 .iPhone(.iPhone18ProMaxAlt):
                 return true
 
             case .simulator(let model, _):

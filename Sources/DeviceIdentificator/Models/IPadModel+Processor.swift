@@ -35,6 +35,8 @@ public extension DeviceModel.IPadModel {
                 .air13InchM2Wifi, .air13InchM2Cellular:     return .appleM2
         case .air11InchM3Wifi, .air11InchM3Cellular,
                 .air13InchM3Wifi, .air13InchM3Cellular:     return .appleM3
+        case .air11InchM4Wifi, .air11InchM4Cellular,
+                .air13InchM4Wifi, .air13InchM4Cellular:     return .appleM4
             
             // Pros
         case .pro1_9d7inchWifi, .pro1_9d7inchCellular,
@@ -51,6 +53,8 @@ public extension DeviceModel.IPadModel {
                 .pro6_12d9inchWifi, .pro6_12d9inchCellular:     return .appleM2
         case .pro_11inchM4Wifi, .pro_11inchM4Cellular,
                 .pro_13inchM4Wifi, .pro_13inchM4Cellular:       return .appleM4
+        case .pro_11inchM5Wifi, .pro_11inchM5Cellular,
+                .pro_13inchM5Wifi, .pro_13inchM5Cellular:       return .appleM5
         }
     }
 }
