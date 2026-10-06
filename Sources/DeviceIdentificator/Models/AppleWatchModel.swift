@@ -55,5 +55,14 @@ public extension DeviceModel {
         case series11_46mmGPS       = "Watch7,18"
         case series11_42mmCellular  = "Watch7,19"
         case series11_46mmCellular  = "Watch7,20"
+        case SE3_40mmGPS            = "Watch7,13"
+        case SE3_40mmCellular       = "Watch7,14"
+        case SE3_44mmGPS            = "Watch7,15"
+        case SE3_44mmCellular       = "Watch7,16"
+        case series12_42mmGPS       = "Watch8,2"
+        case series12_46mmGPS       = "Watch8,3"
+        case series12_42mmCellular  = "Watch8,4"
+        case series12_46mmCellular  = "Watch8,5"
+        case ultra4                 = "Watch8,1"
     }
 }

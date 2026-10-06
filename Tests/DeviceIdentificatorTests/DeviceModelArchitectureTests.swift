@@ -41,12 +41,14 @@ struct DeviceModelArchitectureTests {
             .appleA18Pro: "arm64e",
             .appleA19: "arm64e",
             .appleA19Pro: "arm64e",
+            .appleA20Pro: "arm64e",
             
             // M-Series
             .appleM1: "arm64e", .appleM1Pro: "arm64e", .appleM1Max: "arm64e", .appleM1Ultra: "arm64e",
             .appleM2: "arm64e", .appleM2Pro: "arm64e", .appleM2Max: "arm64e", .appleM2Ultra: "arm64e",
             .appleM3: "arm64e", .appleM3Pro: "arm64e", .appleM3Max: "arm64e",
             .appleM4: "arm64e", .appleM4Pro: "arm64e", .appleM4Max: "arm64e",
+            .appleM5: "arm64e",
             
             // R-Series
             .appleR1: "arm64",
@@ -62,7 +64,8 @@ struct DeviceModelArchitectureTests {
             .appleS7: "arm64e",
             .appleS8: "arm64e",
             .appleS9: "arm64e",
-            .appleS10: "arm64e"
+            .appleS10: "arm64e",
+            .appleS11: "arm64e"
         ]
         
         // Iterate over all DeviceModel cases to verify their architecture.

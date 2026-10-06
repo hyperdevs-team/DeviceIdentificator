@@ -70,6 +70,10 @@ public extension DeviceModel.IPadModel {
         case .air11InchM3Cellular:          return "iPad Air M3 11\" (Cellular)"
         case .air13InchM3Wifi:              return "iPad Air M3 13\" (Wifi)"
         case .air13InchM3Cellular:          return "iPad Air M3 13\" (Cellular)"
+        case .air11InchM4Wifi:              return "iPad Air M4 11\" (Wifi)"
+        case .air11InchM4Cellular:          return "iPad Air M4 11\" (Cellular)"
+        case .air13InchM4Wifi:              return "iPad Air M4 13\" (Wifi)"
+        case .air13InchM4Cellular:          return "iPad Air M4 13\" (Cellular)"
 
         // Pros
         case .pro1_9d7inchWifi:             return "iPad Pro 1G 9.7\" (Wifi)"
@@ -108,6 +112,10 @@ public extension DeviceModel.IPadModel {
         case .pro_11inchM4Cellular:          return "iPad Pro 7G 11\" (Cellular)"
         case .pro_13inchM4Wifi:              return "iPad Pro 7G 13\" (Wifi)"
         case .pro_13inchM4Cellular:          return "iPad Pro 7G 13\" (Cellular)"
+        case .pro_11inchM5Wifi:              return "iPad Pro 8G 11\" (Wifi)"
+        case .pro_11inchM5Cellular:          return "iPad Pro 8G 11\" (Cellular)"
+        case .pro_13inchM5Wifi:              return "iPad Pro 8G 13\" (Wifi)"
+        case .pro_13inchM5Cellular:          return "iPad Pro 8G 13\" (Cellular)"
         }
     }
 }

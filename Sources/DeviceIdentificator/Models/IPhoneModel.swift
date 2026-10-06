@@ -63,5 +63,9 @@ public extension DeviceModel {
         case iPhone17Pro        = "iPhone18,1"
         case iPhone17ProMax     = "iPhone18,2"
         case iPhoneAir          = "iPhone18,4"
+        case iPhone17e          = "iPhone18,5"
+        case iPhone18Pro        = "iPhone19,2"
+        case iPhone18ProMax     = "iPhone19,3"
+        case iPhone18ProMaxAlt  = "iPhone19,7"
     }
 }
